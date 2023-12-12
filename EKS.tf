@@ -1,4 +1,4 @@
-# EKC cluster KMS encryption key
+# EKS cluster KMS encryption key
 
 resource "aws_kms_key" "myeks_kms_key" {
   description             = "KMS key for ekscl secrets encryption"
